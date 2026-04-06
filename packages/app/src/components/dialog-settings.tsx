@@ -38,7 +38,7 @@ export const DialogSettings: Component = () => {
                 <Tabs.SectionTitle>{language.t("settings.section.server")}</Tabs.SectionTitle>
                 <div class="flex flex-col gap-1.5 w-full">
                   <Tabs.Trigger value="agents">
-                    <Icon name="users" />
+                    <Icon name="task" />
                     {language.t("settings.agents.title")}
                   </Tabs.Trigger>
                   <Tabs.Trigger value="providers">
